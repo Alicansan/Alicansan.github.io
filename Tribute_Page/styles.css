@@ -1,0 +1,18 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    background-color: #aec8cf;
+}
+
+
+
+#image{
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
