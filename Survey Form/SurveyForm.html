@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label"> Name <input id="name" type="text" required placeholder="Enter your name"> </label>
+      <label id="email-label"> Email <input id="email" type="email" required placeholder="Enter your Email"></label>
+      <label id="number-label"> Age
+(optional) <input id="number" type="number"  min="13" max="120" placeholder="Age"> </label>
+<label for="dropdown"> What do you like most?
+  <select id="dropdown">
+    <option value="">(select an option)</option>
+    <option value="1"> Bananas </option>
+    <option value="2"> Oranges</option>
+    </label>
+  </select>
+    <legend>
+      <label> chose this<input type="radio" name="button-group-1" value="1"></label>
+      <label> or this one<input type="radio" name="button-group-1" value="2"></label>
+    </legend>  
+        <legend>
+      <label> chose this<input type="radio" name="button-group-2" value="3"></label>
+      <label> or this one<input type="radio" name="button-group-2" value="4"></label>
+    </legend>  
+
+    <label>you can chose this<input type="checkbox" value="1"></label>
+    </form>
+    <label> along with this<input type="checkbox" value="1"></label>
+    <textarea></textarea>
+    <label><input type="submit" value="Submit" id="submit"></label>
+  </body>
+</html>

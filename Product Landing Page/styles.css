@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    top: 0;
+}
+
+#header-img {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+    background: white;
+}
+
+#nav-bar {
+    margin: auto;    
+    background: white;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#Features,
+#How_it_works,
+#Pricing {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#video, img {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
