@@ -46,7 +46,18 @@ function save(){
     countEl.textContent = 0
 }
 function deleteEntries() {
-    
+  
+    var confirmed = window.confirm("Are you sure you want to delete all entries?");
+    if (confirmed) {
+        // Remove all child elements (entries) from the save element
+        while (saveEl.firstChild) {
+            saveEl.removeChild(saveEl.firstChild);
+        }
+    } else {
+        
+        console.log("Deletion canceled");
+    }
+            saveEl.removeChild(saveEl.firstChild);
     while (saveEl.firstChild) 
     {
         saveEl.removeChild(saveEl.firstChild)
