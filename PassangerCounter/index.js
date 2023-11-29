@@ -49,7 +49,7 @@ function deleteEntries() {
   
     var confirmed = window.confirm("Are you sure you want to delete all entries?");
     if (confirmed) {
-        // Remove all child elements (entries) from the save element
+        // Remove all child elements (entries) from the save element but somehow it does not work on github.io
         while (saveEl.firstChild) {
             saveEl.removeChild(saveEl.firstChild);
         }
